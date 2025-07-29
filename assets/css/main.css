@@ -2696,7 +2696,10 @@ input, select, textarea {
 			#banner .slide {
 				text-align: center;
 				padding: 80px 20px;
-				background: #222; 
+				background-image: url("../../images/banner.jpg");
+				background-position: center center;
+				background-size: cover;
+				height: 28em;
 				color: white;
 			}
 
