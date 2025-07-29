@@ -2689,6 +2689,7 @@ input, select, textarea {
 			background: rgba(27, 27, 27, 0.75);
 			color: #fff;
 			padding: 0.5em 0;
+			display: none;
 		}
 
 			#banner .slide {
