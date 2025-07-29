@@ -2674,9 +2674,7 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background-image: url("../../images/banner.jpg");
-		background-position: center center;
-		background-size: cover;
+		background: none;
 		height: 28em;
 		text-align: center;
 		position: relative;
@@ -2702,6 +2700,10 @@ input, select, textarea {
 				height: 28em;
 				color: white;
 			}
+
+			#banner .slide1 { background-image: url('images/banner1.jpg'); }
+			#banner .slide2 { background-image: url('images/pic01.jpg'); }
+			#banner .slide3 { background-image: url('images/pic02.jpg'); }
 
 			#banner header h2 {
 				display: inline-block;
