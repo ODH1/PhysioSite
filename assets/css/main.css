@@ -2854,6 +2854,10 @@ input, select, textarea {
 			#banner {
 				height: 24em;
 			}
+						
+			#banner .slide {
+				height: 24em;
+			}
 
 	}
 
@@ -2897,6 +2901,10 @@ input, select, textarea {
 		/* Banner */
 
 			#banner {
+				height: 20em;
+			}
+
+			#banner .slide {
 				height: 20em;
 			}
 
@@ -3009,6 +3017,10 @@ input, select, textarea {
 		/* Banner */
 
 			#banner {
+				height: 20em;
+			}
+
+			#banner .slide {
 				height: 20em;
 			}
 
@@ -3305,6 +3317,10 @@ input, select, textarea {
 				height: 18em;
 			}
 
+			#banner .slide {
+				height: 18em;
+			}
+
 		/* Wrapper */
 
 			.wrapper {
@@ -3358,6 +3374,10 @@ input, select, textarea {
 		/* Banner */
 
 			#banner {
+				height: 20em;
+			}
+
+			#banner .slide {
 				height: 20em;
 			}
 
