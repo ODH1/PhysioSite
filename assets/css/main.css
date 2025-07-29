@@ -2724,6 +2724,23 @@ input, select, textarea {
 				margin-left: 1em;
 			}
 
+			/* Make Slick container full height of the banner */
+			.banner-slider,
+			.banner-slider .slick-list,
+			.banner-slider .slick-track,
+			.banner-slider .slide {
+				height: 100%;
+			}
+
+			/* Ensure slides fill the parent */
+			.banner-slider .slide {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				text-align: center;
+			}
+
+
 /* Wrapper */
 
 	.wrapper {
