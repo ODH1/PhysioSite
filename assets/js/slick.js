@@ -1,4 +1,4 @@
-// assets/js/main.js
+// assets/js/slick.js
 $(document).ready(function(){
     $('.slick-banner').slick({
         autoplay: true,
