@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Arcana by HTML5 UP</title>
+		<title>Amelia Fitzsimmonds Physiotherapy</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -20,7 +20,7 @@
 				<div id="header">
 
 					<!-- Logo -->
-						<h1><a href="/" id="logo">Arcana <em>by HTML5 UP</em></a></h1>
+						<h1><a href="/" id="logo">Amelia Fitzsimmonds <em>Physiotherapy</em></a></h1>
 
 					<!-- Nav -->
 						<nav id="nav">
@@ -55,28 +55,26 @@
 				</div>
 
 			<!-- Banner -->
-				<section id="banner">
-					<section id="banner" class="banner-slider">
-						<div class="slide">
-							<header>
-								<h2>Arcana: <em>A responsive site template freebie by <a href="http://html5up.net">HTML5 UP</a></em></h2>
-								<a href="#" class="button">Learn More</a>
-							</header>
-						</div>
-						<div class="slide">
-							<header>
-								<h2>Another Slide <em>With Different Content</em></h2>
-								<a href="#" class="button">Get Started</a>
-							</header>
-						</div>
-						<div class="slide">
-							<header>
-								<h2>Third Slide <em>Customize as Needed</em></h2>
-								<a href="#" class="button">Explore</a>
-							</header>
-						</div>
-					</section>
-				</section>
+			<section id="banner" class="banner-slider">
+				<div class="slide">
+					<header>
+						<h2>Arcana: <em>A responsive site template freebie by <a href="http://html5up.net">HTML5 UP</a></em></h2>
+						<a href="#" class="button">Learn More</a>
+					</header>
+				</div>
+				<div class="slide">
+					<header>
+						<h2>Another Slide <em>With Different Content</em></h2>
+						<a href="#" class="button">Get Started</a>
+					</header>
+				</div>
+				<div class="slide">
+					<header>
+						<h2>Third Slide <em>Customize as Needed</em></h2>
+						<a href="#" class="button">Explore</a>
+					</header>
+				</div>
+			</section>
 
 			<!-- Highlights -->
 				<section class="wrapper style1">
@@ -252,7 +250,20 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-			<script src="assets/js/slick.js"></script>
+			<script>
+				$(document).ready(function(){
+					$('.banner-slider').slick({
+						dots: true,
+						arrows: true,
+						infinite: true,
+						autoplay: true,
+						autoplaySpeed: 4000,
+						fade: false,
+						slidesToShow: 1,
+						slidesToScroll: 1
+					});
+				});
+			</script>
 			<script src="assets/js/main.js"></script>
 	</body>
 </html>
