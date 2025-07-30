@@ -2701,9 +2701,9 @@ input, select, textarea {
 				color: white;
 			}
 
-			#banner .slide1 { background-image: url("images/ban1.png"); }
-			#banner .slide2 { background-image: url("images/ban2.png"); }
-			#banner .slide3 { background-image: url("images/ban3.png"); }
+			#banner .slide1 { background-image: url("images/ban1.jpg"); }
+			#banner .slide2 { background-image: url("images/ban2.jpg"); }
+			#banner .slide3 { background-image: url("images/ban3.jpg"); }
 
 			#banner header h2 {
 				display: inline-block;
