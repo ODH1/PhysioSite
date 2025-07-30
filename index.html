@@ -105,8 +105,8 @@
 				<section class="wrapper style2">
 					<div class="container">
 						<header class="major">
-							<h2>A gigantic heading you can use for whatever</h2>
-							<p>With a much smaller subtitle hanging out just below it</p>
+							<h2>Chartered Physiotherapist BSc (Hons) MCSP</h2>
+							<p id="experience-text"></p>
 						</header>
 					</div>
 				</section>
@@ -259,6 +259,13 @@
 						slidesToScroll: 1
 					});
 				});
+			</script>
+			<script>
+				const startYear = 2017;
+				const currentYear = new Date().getFullYear();
+				const yearsExperience = currentYear - startYear;
+				document.getElementById('experience-text').textContent =
+					`With over ${yearsExperience} years of physiotherapy experience and a Master’s degree in Veterinary Physiotherapy from Hartpury College, providing expert care for humans, horses, and dogs.`;
 			</script>
 			<script src="assets/js/main.js"></script>
 	</body>
