@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Amelia Fitzsimmonds Physiotherapy</title>
+		<title>AF Physiotherapy</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -20,7 +20,13 @@
 				<div id="header">
 
 					<!-- Logo -->
-						<h1><a href="/" id="logo">Amelia Fitzsimmonds <em>Physiotherapy</em></a></h1>
+						<h1>
+						  <a href="/" id="logo">
+							<span class="short">AF</span>
+							<span class="rest">melia Fitzsimmonds</span>
+							<em>Physiotherapy</em>
+						  </a>
+						</h1>
 
 					<!-- Nav -->
 					<nav id="nav">
@@ -270,6 +276,11 @@
 				const yearsExperience = currentYear - startYear;
 				document.getElementById('experience-text').textContent =
 					`With over ${yearsExperience} years of physiotherapy experience and a Master’s degree in Veterinary Physiotherapy, providing expert care for humans, horses, and dogs.`;
+			</script>
+			<script>
+			window.addEventListener("load", () => {
+				document.body.classList.add("loaded");
+			});
 			</script>
 			<script src="assets/js/main.js"></script>
 	</body>

@@ -72,6 +72,44 @@ input, select, textarea {
 	appearance: none;
 }
 
+/* Logo */
+#logo {
+    font-size: 2.5em;
+    font-weight: bold;
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#logo .rest {
+    display: inline-block;
+    width: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: width 1.2s ease-out, opacity 0.6s ease-in;
+}
+
+#logo em {
+    display: inline-block;
+    opacity: 0;
+    margin-left: 8px;
+    transition: opacity 0.8s ease-in;
+}
+
+/* After load */
+body.loaded #logo .rest {
+    width: 14ch; /* adjust based on text length */
+    opacity: 1;
+}
+
+body.loaded #logo em {
+    opacity: 1;
+    transition-delay: 1.3s; /* fade in after name expands */
+}
+
+
 /* Basic */
 
 	html {
