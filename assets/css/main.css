@@ -2675,7 +2675,7 @@ input, select, textarea {
 
 	#banner {
 		background: none;
-		height: 28em;
+		height: 35em;
 		text-align: center;
 		position: relative;
 	}
@@ -2697,7 +2697,7 @@ input, select, textarea {
 				padding: 80px 20px;
 				background-position: center center;
 				background-size: cover;
-				height: 28em;
+				height: 35em;
 				color: white;
 			}
 
