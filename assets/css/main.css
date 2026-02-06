@@ -2746,6 +2746,18 @@ input, select, textarea {
 				text-align: center;
 			}
 
+			.banner-slider::after {
+			  content: "";
+			  position: absolute;
+			  top: 0;
+			  left: 0;
+			  width: 100%;
+			  height: 100%;
+			  background-color: rgba(0, 0, 0, 0.4); /* semi-transparent black */
+			  pointer-events: none; /* ensures overlay doesn’t block clicks */
+			  z-index: 2;
+			}
+
 			.banner-slide .slick-arrow {
 				display: none !important; 
 			}
