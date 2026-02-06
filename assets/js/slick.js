@@ -1,8 +1,8 @@
 // assets/js/slick.js
 $(document).ready(function(){
     $('.slick-banner').slick({
-        autoplay: false,
-        autoplaySpeed: 2000,
+        autoplay: true,
+        autoplaySpeed: 1500,
         speed: 300,        
         dots: true,
         arrows: false,
