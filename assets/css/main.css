@@ -2746,6 +2746,10 @@ input, select, textarea {
 				text-align: center;
 			}
 
+			.banner-slide .slick-arrow {
+				display: none !important; 
+			}
+
 
 /* Wrapper */
 
