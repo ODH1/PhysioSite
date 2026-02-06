@@ -2,8 +2,8 @@
 $(document).ready(function(){
     $('.slick-banner').slick({
         autoplay: true,
-        autoplaySpeed: 4000,
-        speed: 500,        
+        autoplaySpeed: 2000,
+        speed: 300,        
         dots: true,
         arrows: false,
         fade: true,
