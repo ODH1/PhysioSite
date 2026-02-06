@@ -3,10 +3,10 @@ $(document).ready(function(){
     $('.slick-banner').slick({
         autoplay: true,
         autoplaySpeed: 4000,
-        speed: 1200,        
+        speed: 500,        
         dots: true,
         arrows: false,
         fade: true,
-        cssEase: 'ease-in-out'
+        cssEase: 'linear'
     });
 });
