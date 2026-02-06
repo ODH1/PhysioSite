@@ -3062,7 +3062,22 @@ input, select, textarea {
 				}
 
 				#cta header .button {
-					margin: 1em 0 0 0;
+					margin: 1em 0 0 0 !important;
+					vertical-align: middle !important;
+					background: #fff !important;
+					color: #474747 !important;
+					margin-left: 1em !important;
+					cursor: pointer !important;
+					display: inline-block !important;
+					padding: 0 1.5em !important;
+					line-height: 2.75em !important;
+					min-width: 9em !important;
+					text-align: center !important;
+					text-decoration: none !important;
+					font-weight: 600 !important;
+					letter-spacing: -0.025em !important;
+					border-radius: 5px !important;
+					border: 0 !important;
 				}
 
 		/* Footer */
